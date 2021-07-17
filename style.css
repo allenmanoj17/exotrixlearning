@@ -2,14 +2,97 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.video{
-    margin: 0 auto;
-    display: block;
-    width: 560px;
+body {
+  background-image: url("assets/bg-01.svg");
+}
+
+.video {
+  margin: 0 auto;
+  display: block;
+  width: 560px;
 }
 
 @media only screen and (max-width: 600px) {
-    .video{
-        width: 300px;
-    }
-    }
+  .video {
+    width: 300px;
+  }
+}
+
+.quotes {
+  float: left;
+}
+#reviews {
+
+  
+  align-items: center;
+}
+.testimonial .testimonial-content {
+  margin: 60px 0 60px 0;
+  position: relative;
+}
+.testimonial .description {
+  padding: 25px 35px;
+  background: #555555;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.testimonial .testimonial-profile {
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+.testimonial .title {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555555;
+  position: relative;
+  margin-bottom: 25px;
+}
+.testimonial .title:before {
+  content: "";
+  width: 1px;
+  height: 70px;
+  background: #555555;
+  position: absolute;
+  top: -8px;
+  left: -15px;
+}
+.testimonial .post {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: #888;
+  margin-top: 10px;
+}
+.owl-theme .owl-controls {
+  margin-top: 30px;
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: transparent;
+  border: 1px solid #555555;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span {
+  background: #555555;
+  border: 1px solid #555555;
+}
+@media only screen and (max-width: 479px) {
+  .testimonial .description {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .testimonial .testimonial-profile {
+    padding: 10px;
+  }
+  .testimonial .title {
+    font-size: 16px;
+  }
+  .testimonial .post {
+    font-size: 13px;
+  }
+}
