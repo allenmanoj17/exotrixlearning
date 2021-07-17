@@ -1,0 +1,125 @@
+#features {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+#features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 35px;
+}
+#features .container .card {
+  position: relative;
+  width: 230px;
+  height: 310px;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+#features .container .card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#features .container .card .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+#features .container .card .face.face1 h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#features .container .card .face.face2 {
+  transition: 0.5s;
+}
+#features .container .card .face.face2 h2 {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 600;
+  padding: 35px;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  font-variant: small-caps;
+}
+#features .container .card .face.face2 h2 img{
+  display: block;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+#features .container .card:hover .face.face2 {
+  height: 60px;
+}
+#features .container .card:hover .face.face2 h2 {
+  font-size: 0.6em;
+  text-align: center;
+}
+#features .container .card:hover .face.face2 h2 img{
+  display: none;
+}
+
+
+#features .container .card:nth-child(1) .face.face2 {
+  background-color: #ffcbce;
+    border-radius: 15px;
+}
+#features .container .card:nth-child(2) .face.face2 {
+  background-color: #ffcbce;
+  border-radius: 15px;
+}
+#features .container .card:nth-child(3) .face.face2 {
+  background-color: #ffcbce;
+  border-radius: 15px;
+}
+#features .container .card:nth-child(4) .face.face2 {
+  background-color: #ffcbce;
+  border-radius: 15px;
+}
+#features .container .card:nth-child(5) .face.face2 {
+  background-color: #ffcbce;
+  border-radius: 15px;
+}
+#features .container .card:nth-child(6) .face.face2 {
+  background-color: #ffcbce;
+  border-radius: 15px;
+}
+
+.about{
+  margin: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .landpageleft{
+margin-top: -100px;
+
+  }
+  .landpageleft > p,h1{
+    
+    }
+.navbar{
+  display: none;
+}
+.landpageright{
+  margin: 30px 0 0 0;
+width:360px;
+}
+.about{
+  font-size: small;
+position: relative;
+margin-top: -60px;
+margin: 20px;
+text-align: left ;
+line-height: 25px;
+padding-bottom: 50px;
+}
+
+
+#features{
+  display: none;
+}
+}
+
