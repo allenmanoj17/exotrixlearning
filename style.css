@@ -5,8 +5,25 @@
 body {
   background-image: url("assets/bg-01.svg");
 }
-
-@media only screen and (max-width: 600px) {
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
+  .dark-pink-text {
+  color: #AC003A;
+  }
+  .dark-amber-text {
+  color: #ff6f00;
+  }
+  .dark-teal-text {
+  color: #004d40;
+  }
+@media only screen and (max-width: 768px) {
 .navbar{
   display: none;
 }
@@ -22,7 +39,7 @@ body {
   margin-right: -15px;
   margin-left: 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .landpageleft{
     display: block;
     text-align: center;
@@ -68,7 +85,7 @@ font-size: 1em;
   width: 560px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .video {
     width: 320px;
   }
@@ -81,6 +98,37 @@ font-size: 1em;
   }
 }
 /* End of about */
+
+#scroll {
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  cursor:pointer;
+  width:50px;
+  height:50px;
+  background-color:#ff8080;
+  text-indent:-9999px;
+  display:none;
+  -webkit-border-radius:60px;
+  -moz-border-radius:60px;
+  border-radius:60px
+}
+#scroll span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-8px;
+  margin-top:-12px;
+  height:0;
+  width:0;
+  border:8px solid transparent;
+  border-bottom-color:#ffffff;
+}
+#scroll:hover {
+  background-color:#e74c3c;
+  opacity:1;filter:"alpha(opacity=100)";
+  -ms-filter:"alpha(opacity=100)";
+}
 
 /* Exotrix Learning - Footer */
 
@@ -154,7 +202,7 @@ font-size: 1em;
 
 /* Responsiveness of the Footer */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .foo-logo {
     height: fit-content;
     width: fit-content;

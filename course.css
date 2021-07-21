@@ -182,7 +182,7 @@
   font-size: x-large;
 }
 /* Responsiveness of Course Section */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .coursehead {
     font-size: 35px;
     margin-bottom: -50px;
