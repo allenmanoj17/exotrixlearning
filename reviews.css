@@ -1,0 +1,87 @@
+/* Styling of Reviews Section */
+
+.quotes {
+  float: left;
+}
+.reviews {
+  margin: 70px;
+}
+.rev {
+  margin: 50px;
+}
+.testimonial .description {
+  padding: 25px 35px;
+  background: rgb(49, 49, 49);
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+.testimonial .testimonial-profile {
+  display: table;
+  margin: 0 auto;
+}
+.testimonial .title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555555;
+  position: relative;
+  text-align: center;
+  margin: 35px 0 25px 30px;
+}
+.testimonial .title:before {
+  content: "";
+  width: 3px;
+  height: 70px;
+  background: #383838;
+  position: absolute;
+  top: -8px;
+  left: -15px;
+}
+.testimonial .post {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: #888;
+  margin-top: 10px;
+}
+.owl-theme .owl-controls {
+  margin-top: 30px;
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: transparent;
+  border: 1px solid #555555;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span {
+  background: #555555;
+  border: 1px solid #555555;
+}
+
+/* Responsiveness of Reviews Section */
+
+@media only screen and (max-width: 600px) {
+  #reviews h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .rev {
+    margin: 0px -50px 0 -40px;
+    width: 298px;
+  }
+  .testimonial .description {
+    padding: 15px;
+
+    font-size: 14px;
+  }
+  .testimonial .testimonial-profile {
+    padding: 10px;
+  }
+  .testimonial .title {
+    font-size: 16px;
+  }
+  .testimonial .post {
+    font-size: 13px;
+  }
+}
+/* End of Reviews Section */

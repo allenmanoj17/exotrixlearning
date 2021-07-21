@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.course{
+  display: grid;
+  padding: 0 100px 0 100px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #131313;
+  margin: 0;
+}
+
+
+.course .container .card{
+  position: relative;
+  width: 250px;
+  height: 380px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.course .container .card:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 129, 120);;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.course .container .card:hover:before{
+  clip-path: circle(300px at 80% -20%);
+}
+
+.course .container .excel:after{
+  content: 'Excel';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 10em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.course .container .python:after{
+  content: 'Python';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 11em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+
+.course .container .java:after{
+  content: 'Java';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 10em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+
+.course .container .androiddev:after{
+  content: 'App';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 10em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+
+.course .container .webdev:after{
+  content: 'Web';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 10em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.course .container .resume:after{
+  content: 'Resume';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 10em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.course .container .cprog:after{
+  content: 'CProg';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 9em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+
+.course .container .interprep:after{
+  content: 'Inter';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 11em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+.course .container .dsa:after{
+  content: 'DSA';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+
+.course .container .card .imgBx{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 70%;
+  height: 120px;
+  transition: 0.5s;
+}
+
+.course .container .card:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+}
+
+.course .container .card .imgBx img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 200px;
+}
+
+.course .container .card .contentBx{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 15px;
+  transition: 1s;
+  z-index: 10;
+}
+
+.course .container .card:hover .contentBx{
+  height: 210px;
+}
+
+.course .container .card .contentBx h2{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+  font-size: x-large;
+}
+
+
+
