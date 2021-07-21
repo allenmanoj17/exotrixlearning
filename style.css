@@ -12,7 +12,6 @@ body {
 }
 }
 
-
 /* Landing Page */
 .hero {
   width: 820px;
@@ -30,6 +29,7 @@ body {
     margin-left:-70px ;
     justify-content: center;
   }
+
   .welcome{
 margin-top: 25px;
 align-content: center;
@@ -47,7 +47,11 @@ font-size: 1em;
     height: 450px;
     margin-left: -80px;
     margin-top: -90px;
-}}
+}
+.button-get{
+  margin:-35px;
+}
+}
 /* About-Us */
 
 .about {
