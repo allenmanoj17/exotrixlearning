@@ -4,6 +4,7 @@
 
 body {
   background-image: url("assets/bg-01.svg");
+  zoom: 100%;
 }
 .hero {
   width: 820px;
