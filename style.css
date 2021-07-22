@@ -45,9 +45,10 @@ font-size: 1em;
   .hero {
     width: 360px;
     height: 450px;
-    margin-left: -90px;
+    margin-left: -50px;
     margin-top: -90px;
     padding: 5px;
+    
 }
 .button-get{
   margin:-35px;
@@ -221,6 +222,8 @@ font-size: 1em;
     padding-left: 100px;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -229,7 +232,6 @@ font-size: 1em;
   }
   .upfoo {
  text-align: center;
-
   }
 }
 
