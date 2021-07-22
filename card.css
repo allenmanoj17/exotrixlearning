@@ -94,15 +94,14 @@
 /* Responsiveness of Features Section */
 @media only screen and (max-width: 768px) {
   #features .container .card {
-    width: 220px;
-    height: 170px;
+    width: 200px;
+    height: 150px;
+    margin: 0 0 0 55px;
   }
   #features .amafea {
     font-size: 30px;
   }
-  #features .container {
-    margin: 0 0 0 85px;
-  }
+ 
   #features .container .card .face.face2 h2 {
     font-size: 20px;
     font-size: 0.8em;

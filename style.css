@@ -134,7 +134,7 @@ font-size: 1em;
   color: #888;
 
   text-align: center;
-  margin: 25px 5px 0 0;
+  margin: 25px 0px 0 0;
   font-size: 16px;
 }
 .footer .footer-content h2 {
@@ -147,7 +147,7 @@ font-size: 1em;
   font-size: 13px;
   text-align: center;
   line-height: 25px;
-  padding: 0 25px 0 25px;
+  
 }
 
 .footer .footer-links h4 {
@@ -191,20 +191,45 @@ font-size: 1em;
     height: fit-content;
     width: fit-content;
   }
+  .footer .footer-links {
+    text-align: center;
+    justify-content: center;
+  }
   .footer{
     align-items: center;
     justify-content: center;
     text-align: center;
   }
   .footer .footer-content {
-    font-size: medium;
+    font-size: smaller;
+
+  }
+  .footer .footer-content h2 {
+    margin-top: 30px;
+    font-size: small;
   }
   .footer .footer-content .p-content {
     font-size: smaller;
     padding: 0 40px;
     align-items: center;
+    text-align: center;
     justify-content: center;
-    
+  }
+  .footer .footer-logo img {
+    height: auto;
+    width:290px;
+    padding-left: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-fcc{
+   padding-left: 40px;
+  }
+  .upfoo {
+ text-align: center;
+
   }
 }
 
