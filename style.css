@@ -5,7 +5,12 @@
 body {
   background-image: url("assets/bg-01.svg");
 }
-
+html{
+  width: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
 @media only screen and (max-width: 1000px) {
 .nav-item{
   display: none;
@@ -16,11 +21,14 @@ body {
 .hero {
   width: 820px;
   height: 700px;
+  display: block;
 }
 
 .landp {
-  margin-right: -15px;
-  margin-left: 45px;
+  
+  margin-right: -5px;
+  margin-left: 25px;
+  
 }
 @media only screen and (max-width: 768px) {
   .landpageleft{
@@ -29,7 +37,10 @@ body {
     margin-left:-50px ;
     justify-content: center;
   }
-
+  .landp {
+    margin-right: -15px;
+    margin-left: 45px;
+  }
   .welcome{
 margin-top: 25px;
 align-content: center;
@@ -48,7 +59,6 @@ font-size: 1em;
     margin-left: -50px;
     margin-top: -90px;
     padding: 5px;
-    
 }
 .button-get{
   margin:-35px;
