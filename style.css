@@ -5,16 +5,16 @@
 body {
   background-image: url("assets/bg-01.svg");
 }
-html{ 
+html {
   width: 100%;
-margin: 0px;
-padding: 0px;
-overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 @media only screen and (max-width: 1000px) {
-.nav-item{
-  display: none;
-}
+  .nav-item {
+    display: none;
+  }
 }
 
 /* Landing Page */
@@ -25,33 +25,31 @@ overflow-x: hidden;
 }
 
 .landp {
-  
   margin-right: -5px;
   margin-left: 25px;
-  
 }
 @media only screen and (max-width: 768px) {
-  .landpageleft{
+  .landpageleft {
     display: block;
     text-align: center;
-    margin-left:-50px ;
+    margin-left: -50px;
     justify-content: center;
   }
   .landp {
     margin-right: -15px;
     margin-left: 45px;
   }
-  .welcome{
-margin-top: 25px;
-align-content: center;
-text-align: center;
-font-size: 25px;
+  .welcome {
+    margin-top: 25px;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
   }
-  .exl{
-font-size: 2em;
+  .exl {
+    font-size: 2em;
   }
-  .learn{
-font-size: 1em;
+  .learn {
+    font-size: 1em;
   }
   .hero {
     width: 360px;
@@ -59,10 +57,10 @@ font-size: 1em;
     margin-left: -50px;
     margin-top: -90px;
     padding: 5px;
-}
-.button-get{
-  margin:-35px;
-}
+  }
+  .button-get {
+    margin: -35px;
+  }
 }
 /* About-Us */
 
@@ -95,34 +93,35 @@ font-size: 1em;
 /* End of about */
 
 #scroll {
-  position:fixed;
-  right:10px;
-  bottom:10px;
-  cursor:pointer;
-  width:50px;
-  height:50px;
-  background-color:#ff8080;
-  text-indent:-9999px;
-  display:none;
-  -webkit-border-radius:60px;
-  -moz-border-radius:60px;
-  border-radius:60px
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #ff8080;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
 }
 #scroll span {
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-left:-8px;
-  margin-top:-12px;
-  height:0;
-  width:0;
-  border:8px solid transparent;
-  border-bottom-color:#ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
 }
 #scroll:hover {
-  background-color:#e74c3c;
-  opacity:1;filter:"alpha(opacity=100)";
-  -ms-filter:"alpha(opacity=100)";
+  background-color: #e74c3c;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
 }
 
 /* Exotrix Learning - Footer */
@@ -158,7 +157,6 @@ font-size: 1em;
   font-size: 13px;
   text-align: center;
   line-height: 25px;
-  
 }
 
 .footer .footer-links h4 {
@@ -206,14 +204,13 @@ font-size: 1em;
     text-align: center;
     justify-content: center;
   }
-  .footer{
+  .footer {
     align-items: center;
     justify-content: center;
     text-align: center;
   }
   .footer .footer-content {
     font-size: smaller;
-
   }
   .footer .footer-content h2 {
     margin-top: 30px;
@@ -228,7 +225,7 @@ font-size: 1em;
   }
   .footer .footer-logo img {
     height: auto;
-    width:290px;
+    width: 290px;
     padding-left: 100px;
     text-align: center;
     align-items: center;
@@ -237,13 +234,10 @@ font-size: 1em;
     justify-content: center;
   }
 
-  .list-fcc{
-   padding-left: 40px;
+  .list-fcc {
+    padding-left: 40px;
   }
   .upfoo {
- text-align: center;
+    text-align: center;
   }
 }
-
-
-
