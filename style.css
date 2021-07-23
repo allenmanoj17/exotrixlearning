@@ -11,7 +11,7 @@ html {
   padding: 0px;
   overflow-x: hidden;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1034px) {
   .nav-item {
     display: none;
   }
@@ -24,6 +24,8 @@ html {
   display: block;
 }
 
+
+
 .landp {
   margin-right: -5px;
   margin-left: 25px;
@@ -34,6 +36,18 @@ html {
     text-align: center;
     margin-left: -50px;
     justify-content: center;
+  }
+  .button-get{
+    display: flex;
+    border: red 1px solid;
+   
+
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .btnred{
+    border: red 1px solid;
   }
   .landp {
     margin-right: -15px;
@@ -58,7 +72,7 @@ html {
     margin-top: -90px;
     padding: 5px;
   }
-  .button-get {
+  .button-get{
     margin: -35px;
   }
 }

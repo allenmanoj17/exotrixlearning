@@ -33,12 +33,9 @@
   height: 100%;
   background: rgb(255, 129, 120);
   clip-path: circle(150px at 90% 20%);
-  transition: 0.5s ease-in-out;
+ 
 }
 
-.course .container .card:hover:before {
-  clip-path: circle(300px at 80% -20%);
-}
 
 .course .container .excel:after {
   content: "Exc";
@@ -145,10 +142,6 @@
   transition: 0.5s;
 }
 
-.course .container .card:hover .imgBx {
-  top: 0%;
-  transform: translateY(0%);
-}
 
 .course .container .card .imgBx img {
   position: absolute;
@@ -169,9 +162,6 @@
   z-index: 10;
 }
 
-.course .container .card:hover .contentBx {
-  height: 210px;
-}
 
 .course .container .card .contentBx h2 {
   position: relative;
